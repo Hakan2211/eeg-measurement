@@ -1,0 +1,18 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Data created from the eeg_auswertung
+; The channel numbers are related to the channels in the exported file.
+
+[Common Infos]
+DataFile=Messung_20140108_2_30salpha.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "".
+Mk1=Class,1,1,7500,0
+Mk2=Class,2,7501,7500,0
+Mk3=Class,1,15001,7500,0
+Mk4=Class,2,22501,7500,0
+Mk5=Class,1,30001,7500,0
+Mk6=Class,2,37501,7500,0
